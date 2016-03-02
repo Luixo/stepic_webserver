@@ -1,0 +1,1 @@
+2016/03/02 23:07:50 [error] 587#0: *1 open() "/home/box/web/uploads/uploads/1" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "HEAD /uploads/1 HTTP/1.1", host: "localhost"
