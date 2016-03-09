@@ -1,0 +1,7 @@
+CONFIG = {
+	'working_dir': '/home/box/web/',
+	'args': (
+		'--bind=127.0.0.1:8000',
+		'web.app'
+	)
+}
