@@ -7,5 +7,5 @@ sudo /etc/init.d/nginx restart
 sudo ln -sf /home/box/web/etc/django.wsgi /etc/gunicorn.d/django.wsgi
 #sudo /etc/init.d/gunicorn restart
 
-kill -HUP /home/box/web/etc/gunicorn.pid
-gunicorn -c gunicorn.conf.py /etc/gunicorn.d/django.wsgi
+kill -HUP /home/box/web/etc/gunicorn.pid 2> /dev/null
+gunicorn -c etc/gunicorn.conf.py /etc/gunicorn.d/django.wsgi
