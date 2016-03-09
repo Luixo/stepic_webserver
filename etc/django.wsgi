@@ -9,7 +9,7 @@ CONFIG = {
     'args': (
         # '--bind=127.0.0.1:8000',
         '--workers=1',
-#	'--daemon'
+		# '--daemon'
         # '--worker-class=egg:gunicorn#sync',
         # '--timeout=30',
         'settings',
