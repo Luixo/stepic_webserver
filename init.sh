@@ -4,6 +4,5 @@ git config --global user.email lexx92@mail.ru
 
 sudo ln -sf /home/box/web/etc/nginx.conf /etc/nginx/nginx.conf
 sudo /etc/init.d/nginx restart
-sudo ln -sf /home/box/web/hello.py /etc/gunicorn.d/hello.py
-#sudo ln -sf /home/box/web/etc/gunicorn.conf /etc/gunicorn.d/gunicorn.conf.py
+sudo ln -sf /home/box/web/etc/django.wsgi /etc/gunicorn.d/django.wsgi
 sudo /etc/init.d/gunicorn restart
