@@ -3,7 +3,7 @@ CONFIG = {
     #'environment': {
     #    'PYTHONPATH': '/home/box/web/ask',
     #},
-    'working_dir': '/home/box/web/ask',
+    'working_dir': '/home/box/web/ask/ask',
     # 'user': 'www-data',
     # 'group': 'www-data',
     'args': (
@@ -12,6 +12,6 @@ CONFIG = {
 		# '--daemon'
         # '--worker-class=egg:gunicorn#sync',
         # '--timeout=30',
-        'settings',
+        'ask.wsgi:application',
     ),
 }
